@@ -1,1 +1,1 @@
-
+variable "private-dns"{}
