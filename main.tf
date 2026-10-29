@@ -3,5 +3,5 @@ for_each=var.private-dns
 name                = each.valaue.name
   resource_group_name =  each.valaue.resource_group_name
 
-  tags =  each.valaue.tags
+  tags =  each.value.tags
 }
